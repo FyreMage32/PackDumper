@@ -90,7 +90,7 @@ Safe Exception Handlers -> No (/SAFESEH:NO)
 
 ✔️ You need a PackDumperPathList.txt file just in case you've set DumpMethod = 1 (BY_PATH_LIST). Here you can put the full paths for every file you want to dump
 
-✔️ You can make a list with the paths from ALL files from "pack" folder by using PathListDumper.CT (CheatEngine Script) that's also provided in this repository. Check **PathListDumper Script Explanations**
+✔️ You can make a list with the paths from ALL files from "pack" folder by using PathListDumper.CT (CheatEngine Script) that's also provided in this repository. Check [PathListDumper Script Explanations](https://github.com/FyreMage32/PackDumper/blob/main/README.md#pathlistdumper-script-explanations)
 
 ✔️ PackDumperPathList.txt file example:
 
