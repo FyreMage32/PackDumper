@@ -188,7 +188,7 @@ void CDumper::Init ()
 	CDumper::Log ( XOR ( "[+] Hello, Friend =)"               ),                                         ELOGTYPE::LOG_BOTH );
 	CDumper::Log ( XOR ( "[+] PackDumper Version -> "         ) + PACK_DUMPER_VERSION,                   ELOGTYPE::LOG_BOTH );
 
-	if ( cfg::DumpMethod == EDUMPMETHOD::BY_PATH_LIST )
+	if ( cfg::DumpMethod != EDUMPMETHOD::AUTO_HOOK )
 	{
 		CDumper::Log ( XOR ( ""                               ),                                         ELOGTYPE::LOG_BOTH );
 		CDumper::Log ( XOR ( "[+] Dump -> INSERT"             ),                                         ELOGTYPE::LOG_BOTH );
