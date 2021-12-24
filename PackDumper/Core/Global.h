@@ -39,7 +39,7 @@ enum EDUMPMETHOD
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + //
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + //
 
-//#define ENABLE_CONSOLE
+#define ENABLE_CONSOLE
 
 const std::string PACK_DUMPER_VERSION_MAJOR = XOR ( "1" );
 const std::string PACK_DUMPER_VERSION_MINOR = XOR ( "0" );
